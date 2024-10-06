@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #474747;
+            color: beige;
+        }
+        h1:hover{
+            background-color: #036300;
+        }
+        button:hover{
+            background-color: #928bff;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 8px;
+        }  
+        div:first-child{
+            background-color: rgb(105, 0, 0);
+        }
+        div:nth-child(2n){
+            background-color: aquamarine;
+        }
+        h1::after{
+            content: " AFTER !";
+            color: #928bff;
+        }
+        p::first-letter{
+            color: aqua;
+            font-size: 50px;
+        }
+        </style>
+
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+    <input disabled type="checkbox" name="" id="">
+    <button>Submit</button>
+
+    <h1>Hover</h1>
+    <h1></h1>
+    <button>Focus</button>
+    <input type="text" required="true">
+    <input type="checkbox">
+    <input type="text" disabled="true">
+
+    <div>
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+    </div>
+
+    <h1>Pseudo before and after selector</h1>
+    <h2>First letter selector</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum asperiores amet quod commodi, odit eos magnam. Minus ipsam hic corrupti accusamus non, magni mollitia velit odio voluptas officiis! Officia, doloribus!
+    Quis vitae, deleniti aliquid dipisci. Vero, culpa quis! Officiis tenetur alias amet assumenda saepe sapiente, ipsum, harum iure esse eligendi vitae natus placeat?
+    Exercitationem eaque vero dolor fuga quidem temporibus accusamus ea minima consequuntur quos, ipsa rerum, veniam atque at. Ipsam facere dicta molestias dolor architecto magnam. Cupiditate debitis a distinctio obcaecati inventore.
+    Aliquid earum nihil maiores deleniti. Eveniet quibusdam quisquam nobis autem reiciendis expedita vero doloremque ut est accusamus veniam maiores exercitationem aspernatur, earum laborum minima iusto eius, maxime repellat. Perferendis, placeat.
+    Sequi nulla, modi iure placeat quod molestiae odit sint saepe accusamus aut, laudantium dolores quidem quaerat quisquam quas perspiciatis dolorum? Quidem ullam ducimus non atque minima. Quam rem sunt illo!</p>
+
+
+</body>
+</html>
